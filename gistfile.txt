@@ -1,0 +1,33 @@
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+
+cinst chocolatey
+cinst visualstudio2013ultimate
+cinst visualstudio2013-update3
+cinst mssqlserver2014express
+cinst mssqlservermanagementstudio2014express
+cinst resharper
+
+cinst 1password
+cinst dropbox
+cinst skype
+cinst fiddler4
+cinst teamviewer
+cinst git-credential-winstore
+cinst poshgit
+cinst dotpeek
+cinst googlechrome
+cinst adblockpluschrome
+cinst ccleaner
+cinst vlc
+cinst beyondcompare
+cinst filezilla
+cinst sublimetext3
+cinst filezilla
+cinst android-sdk
+cinst PDFCreator
+cinst adobereader
+cinst 7zip
+cinst 7zip.install
+
+cinst IIS-WebServerRole -source windowsfeatures
