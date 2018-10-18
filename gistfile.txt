@@ -15,7 +15,6 @@ cinst Git-Credential-Manager-for-Windows
 cinst github
 
 cinst -y nodejs.install
-npm install -g npm-windows-upgrade
 
 cinst -y visualstudiocode
 
