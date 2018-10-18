@@ -10,6 +10,7 @@ cinst geforce-experience
 ## Git
 cinst -y git.install
 cinst -y poshgit
+cinst hyper
 
 # Restart PowerShell / CMDer before moving on - or run
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
@@ -54,7 +55,6 @@ cinst dashlane
 cinst adblockpluschrome
 cinst ccleaner
 cinst teamviewer
-cinst git
 cinst gitkraken
 cinst snagit
 cinst speccy
