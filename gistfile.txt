@@ -3,6 +3,9 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 
 Update-ExecutionPolicy Unrestricted
 
+## Nvidia
+cinst geforce-game-ready-driver
+cinst geforce-experience
 
 ## Git
 cinst -y git.install
@@ -51,7 +54,12 @@ cinst dashlane
 cinst adblockpluschrome
 cinst ccleaner
 cinst teamviewer
+cinst git
 cinst gitkraken
 cinst snagit
+cinst speccy
+cinst steam
+cinst origin
+cinst adobe-creative-cloud
 
 cinst IIS-WebServerRole -source windowsfeatures
