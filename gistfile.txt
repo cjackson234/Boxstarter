@@ -18,11 +18,7 @@ cinst -y nodejs.install
 
 cinst -y visualstudiocode
 
-
-cinst visualstudio2015enterprise
-if (Test-PendingReboot) { Invoke-Reboot }
-
-cinst -y visualstudio2017professional
+cinst visualstudio2019professional
 if (Test-PendingReboot) { Invoke-Reboot }
 
 cinst -y python2
@@ -35,7 +31,7 @@ cinst -y 7zip.install
 cinst -y sysinternals
 cinst -y DotNet3.5
 
-cinst dashlane
+cinst bitwarden
 cinst adblockpluschrome
 cinst ccleaner
 cinst teamviewer
